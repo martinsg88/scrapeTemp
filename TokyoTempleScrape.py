@@ -10,7 +10,6 @@ def get_url_main_site():
 def __load_url(url):
     r = requests.get(url)
     data = r.text
-    print data
     return etree.parse(StringIO(data), etree.HTMLParser()) 
 
 
@@ -27,8 +26,22 @@ def __get_list_of_pages_tokyo():
 
 
 def __click_on_temple_pages(partial):
-    __load_url(get_url_main_site() + partial)
-    
+    tree =  __load_url(get_url_main_site() + partial)
+    __get_list_of_specialties(tree)
+    __get_address_information(tree)
+
+
+def __get_list_of_specialties(tree):
+    rawListOfSpecialties = tree.xpath('//*[@id="content"]/div/div[1]/ul/li[*]/a/span/text()')
+    listOfData = []
+    for ele in rawListOfSpecialties:
+        listOfData.append(ele)
+    return listOfData
+
+
+def __get_address_information(tree):
+    # rawListOfAddress = tree.xpath('')
+    pass
 
 
 if __name__ == "__main__":
