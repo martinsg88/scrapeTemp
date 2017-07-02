@@ -14,7 +14,8 @@ def __initialize_data():
 def __get_list_of_pages_tokyo():
     tree = __initialize_data() 
     listOfTemples = tree.xpath('//*[@id="content"]/div/section[*]/h3/a')
-    
+    for ele in listOfTemples:
+        print ele.attrib['href']
 
 
 def __click_on_temple_pages():
