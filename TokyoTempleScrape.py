@@ -1,6 +1,7 @@
 from lxml import html, etree
 import requests 
 from StringIO import StringIO
+import json
 
 
 def get_url_main_site():
@@ -34,14 +35,34 @@ def __click_on_temple_pages(partial):
 def __get_list_of_specialties(tree):
     rawListOfSpecialties = tree.xpath('//*[@id="content"]/div/div[1]/ul/li[*]/a/span/text()')
     listOfData = []
+    keyOfData = [] 
     for ele in rawListOfSpecialties:
+        keyOfData.append("Specialties")
         listOfData.append(ele)
-    return listOfData
+    totalValue = make_dic(keyOfData, listOfData) 
+    print(repr_dict(totalValue)) 
+    return totalValue 
+
+
+def make_dic(keys, values):
+    return dict((zip(keys, values)))
 
 
 def __get_address_information(tree):
-    # rawListOfAddress = tree.xpath('')
-    pass
+    rawBlockData = tree.xpath('//*[@id="content"]/div/section[5]/table')
+    keys = []
+    values = []
+    for nodes in rawBlockData:
+        for node in nodes:
+            keys.append(node[0].text)
+            values.append(node[1].text)
+    totalValue = make_dic(keys, values) 
+    print(repr_dict(totalValue))
+    return totalValue 
+
+
+def repr_dict(d):
+        return '{%s}' % ',\n'.join("'%s': '%s'" % pair for pair in d.iteritems())
 
 
 if __name__ == "__main__":
