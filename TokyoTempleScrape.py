@@ -2,6 +2,7 @@ from lxml import html, etree
 import requests 
 from StringIO import StringIO
 import json
+from itertools import chain
 
 
 def get_url_main_site():
@@ -22,25 +23,31 @@ def __initialize_data():
 def __get_list_of_pages_tokyo():
     tree = __initialize_data() 
     listOfTemples = tree.xpath('//*[@id="content"]/div/section[*]/h3/a')
+    f1=open('./infoFile', 'w+')
     for ele in listOfTemples:
-        __click_on_temple_pages(ele.attrib['href'])
+        beforeToPrint = __click_on_temple_pages(ele.attrib['href'])
+        readyToPrint = repr_dict(dataToPrint)
+        f1.write(readyToPrint.encode('utf8')) 
+    f1.close()
 
 
-def __click_on_temple_pages(partial):
+def __click_on_temple_pages(partial): 
     tree =  __load_url(get_url_main_site() + partial)
-    __get_list_of_specialties(tree)
-    __get_address_information(tree)
+    listOfSpe = __get_list_of_specialties(tree)
+    listOfinfo =__get_address_information(tree)
+    return(dict(chain(listOfSpe.items(), listOfinfo.items())))
 
 
 def __get_list_of_specialties(tree):
     rawListOfSpecialties = tree.xpath('//*[@id="content"]/div/div[1]/ul/li[*]/a/span/text()')
     listOfData = []
-    keyOfData = [] 
+    keyOfData = []
+    i = 0
     for ele in rawListOfSpecialties:
-        keyOfData.append("Specialties")
+        keyOfData.append("Specialties"+str(i))
         listOfData.append(ele)
+        i = i + 1 
     totalValue = make_dic(keyOfData, listOfData) 
-    print(repr_dict(totalValue)) 
     return totalValue 
 
 
@@ -57,7 +64,6 @@ def __get_address_information(tree):
             keys.append(node[0].text)
             values.append(node[1].text)
     totalValue = make_dic(keys, values) 
-    print(repr_dict(totalValue))
     return totalValue 
 
 
