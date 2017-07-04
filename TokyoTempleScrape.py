@@ -24,10 +24,15 @@ def __get_list_of_pages_tokyo():
     tree = __initialize_data() 
     listOfTemples = tree.xpath('//*[@id="content"]/div/section[*]/h3/a')
     arrayOfData = []
+    keyOfData = []
+    i = 0
     for ele in listOfTemples:
+        keyOfData.append("shrine"+str(i))
         beforeToPrint = __click_on_temple_pages(ele.attrib['href'])
         arrayOfData.append(repr_dict(beforeToPrint))
-    print_data_to_file(arrayOfData)
+        i = i + 1 
+    readyToPrint = make_dic(keyOfData, arrayOfData) 
+    print_data_to_file(readyToPrint)
     
     
 def print_data_to_file(readyToPrint):

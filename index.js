@@ -13,8 +13,7 @@ tempShrineApp.controller('ShrineListController', function($scope, $http){
   });
 
   function parseData(jsonData, $scope){
-	console.log(jsonData);
-	var rawData = JSON.parse(jsonData); 
- 	console.log(rawData); 
+	var rawData = jsonData.temple1; 
+	console.log(rawData); 
   }
 });
