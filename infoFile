@@ -1,152 +1,20 @@
-
-{'Webページ': 'None',
-'名前': '松陰神社',
-'本尊・御祭神': '《主》吉田寅次郎藤原矩方',
-'住所': '東京都世田谷区若林4-35-1',
-'Specialties4': '勝負運',
-'Specialties5': '有名人のお墓',
-'Specialties0': '学問の神様•合格祈願',
-'Specialties1': '御朱印',
-'Specialties2': '武将・サムライ',
-'Specialties3': '七五三'}
-{'名前': '明治神宮',
-'本尊・御祭神': '明治天皇,昭憲皇太后',
-'住所': '東京都渋谷区代々木神園町1番1号',
-'Specialties4': '国宝',
-'Specialties5': '重要文化財',
-'Specialties6': '御朱印',
-'Specialties0': '縁結び•恋愛成就',
-'Specialties1': '交通安全',
-'Specialties2': '結婚式',
-'Specialties3': '食事'}
-{'名前': '穴八幡神社',
-'本尊・御祭神': '《合》天照大神,天児屋根命,木花開耶姫命,菅原道真,市杵島姫命,《主》応神天皇,仲哀天皇,神功皇后,《配》仁徳天皇,徳川家康,宇迦御魂命,大汝牟智神,福神',
-'歴史': '
-                    ',
-'住所': '東京都新宿区西早稲田2-1-11',
-'Specialties4': '祭り',
-'Specialties5': '武将・サムライ',
-'読み方': 'あなはちまんじんじゃ',
-'Specialties0': '金運',
-'Specialties1': '商売繁盛',
-'Specialties2': '厄除け・縁切り',
-'Specialties3': 'お守り'}
-{'名前': '愛宕神社',
-'本尊・御祭神': '《主》火産霊神,《配》罔象女神,大山咋神,日本武尊',
-'歴史': '
-                    ',
-'住所': '東京都港区愛宕1-5-3',
-'読み方': 'あたごじんじゃ',
-'Specialties0': '御朱印',
-'Specialties1': '縁結び•恋愛成就',
-'Specialties2': '勝負運',
-'Specialties3': 'お守り',
-'通称': 'あたごさま'}
-{'Specialties2': '祈祷',
-'名前': '神田神社（神田明神）',
-'本尊・御祭神': '《主》大己貴命,少彦名命,平将門',
-'Specialties3': 'おみくじ',
-'住所': '東京都千代田区外神田2-16-2',
-'Specialties4': 'お祓い',
-'Specialties5': 'お宮参り',
-'Specialties6': '絵馬',
-'Specialties7': '七五三',
-'Specialties0': '商売繁盛',
-'Specialties1': '厄除け・縁切り',
-'Specialties10': '厄払い',
-'Specialties11': '交通安全',
-'Specialties12': '縁結び•恋愛成就',
-'Specialties8': '御朱印',
-'Specialties9': '祭り',
-'通称': '明神さま'}
-{}
-{'名前': '浅草寺',
-'宗派': '聖観音宗',
-'住所': '東京都台東区浅草２-３-１'}
-{'名前': '根津神社',
-'本尊・御祭神': '《主》須佐之男命,大山咋命,誉田別命,《配》大国主命,菅原道真',
-'住所': '東京都文京区根津1-28-9',
-'Specialties4': '武将・サムライ',
-'Specialties5': '祭り',
-'Specialties0': '重要文化財',
-'Specialties1': '花の名所',
-'Specialties2': 'お守り',
-'Specialties3': '結婚式',
-'通称': '根津権現'}
-{'名前': '亀戸天神社',
-'本尊・御祭神': '《主》菅原道真,《配》天菩日命',
-'住所': '東京都江東区亀戸3-6-1',
-'Specialties0': '学問の神様•合格祈願',
-'Specialties1': '御朱印',
-'通称': '亀戸天満宮'}
-{'Webページ': 'None',
-'名前': '西新井大師総持寺',
-'本尊・御祭神': '十一面観世音  弘法大師',
-'住所': '東京都足立区西新井１-１５-１',
-'Specialties4': '国宝',
-'Specialties5': '重要文化財',
-'Specialties6': '花の名所',
-'Specialties7': '写経・写仏',
-'Specialties0': '厄除け・縁切り',
-'Specialties1': '祈祷',
-'Specialties2': 'お祓い',
-'Specialties3': '七五三',
-'宗派': '真言宗豊山派'}
-{'Webページ': 'None',
-'名前': '花園神社',
-'本尊・御祭神': '《主》倉稲魂神,日本武尊,倉稲魂神',
-'住所': '東京都新宿区新宿5-17-3',
-'Specialties0': '商売繁盛',
-'Specialties1': '祭り',
-'Specialties2': '勝負運'}
-{'Webページ': 'None',
-'名前': '日枝神社',
-'本尊・御祭神': '《主》大山咋神,《配》国常立神,伊弉冉神,足仲彦尊',
-'住所': '東京都千代田区永田町2-10-5',
-'Specialties4': '七五三',
-'Specialties5': 'お宮参り',
-'Specialties6': '祈祷',
-'Specialties7': '祭り',
-'Specialties0': '縁結び•恋愛成就',
-'Specialties1': '商売繁盛',
-'Specialties2': '安産祈願・子宝',
-'Specialties3': '結婚式',
-'Specialties8': '家内安全',
-'Specialties9': '武将・サムライ',
-'通称': '山王日枝神社・山王さん'}
-{'名前': '東京大神宮',
-'本尊・御祭神': '《主》天照皇大神,豊受大神,《配》天之御中主神,高御産巣日神,倭比売命',
-'Specialties0': '縁結び•恋愛成就',
-'Specialties1': '御朱印',
-'住所': '東京都千代田区富士見2-4-1'}
-{'名前': '浅草神社',
-'本尊・御祭神': '《主》土師真仲知命,《配》桧前浜成,桧前武成,徳川家康',
-'歴史': '
-                    ',
-'住所': '東京都台東区浅草2-3-1',
-'読み方': 'あさくさじんじゃ',
-'Specialties0': '縁結び•恋愛成就',
-'Specialties1': '家内安全',
-'Specialties2': '御朱印',
-'Specialties3': '祭り',
-'通称': '三社様'}
-{}
-{}
-{}
-{'名前': '富岡八幡宮',
-'本尊・御祭神': '《合》竃神,日本武命,《主》誉田別天皇,《配》息長足姫命,大雀命,武内宿禰命,天児屋根命,天照皇大神,常磐社神',
-'住所': '東京都江東区富岡1-20-3',
-'Specialties4': '結婚式',
-'Specialties5': '七五三',
-'Specialties6': '祭り',
-'Specialties7': '札所・七福神巡り',
-'Specialties0': '縁結び•恋愛成就',
-'Specialties1': '金運',
-'Specialties2': '勝負運',
-'Specialties3': '商売繁盛',
-'通称': '深川八幡宮'}
-{}
-{'名前': '白山神社',
-'本尊・御祭神': '《主》菊理比咩命,伊弉諾命,伊弉冉命',
-'通称': '白山さま',
-'住所': '東京都文京区白山5-31-26'}
+"{'Web\u30da\u30fc\u30b8': 'None',\n'\u540d\u524d': '\u677e\u9670\u795e\u793e',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u300a\u4e3b\u300b\u5409\u7530\u5bc5\u6b21\u90ce\u85e4\u539f\u77e9\u65b9',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u4e16\u7530\u8c37\u533a\u82e5\u67974-35-1',\n'Specialties4': '\u52dd\u8ca0\u904b',\n'Specialties5': '\u6709\u540d\u4eba\u306e\u304a\u5893',\n'Specialties0': '\u5b66\u554f\u306e\u795e\u69d8\u2022\u5408\u683c\u7948\u9858',\n'Specialties1': '\u5fa1\u6731\u5370',\n'Specialties2': '\u6b66\u5c06\u30fb\u30b5\u30e0\u30e9\u30a4',\n'Specialties3': '\u4e03\u4e94\u4e09'}"
+"{'\u540d\u524d': '\u660e\u6cbb\u795e\u5bae',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u660e\u6cbb\u5929\u7687\u3001\u662d\u61b2\u7687\u592a\u540e',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u6e0b\u8c37\u533a\u4ee3\u3005\u6728\u795e\u5712\u753a1\u756a1\u53f7',\n'Specialties4': '\u56fd\u5b9d',\n'Specialties5': '\u91cd\u8981\u6587\u5316\u8ca1',\n'Specialties6': '\u4ea4\u901a\u5b89\u5168',\n'Specialties0': '\u7e01\u7d50\u3073\u2022\u604b\u611b\u6210\u5c31',\n'Specialties1': '\u7d50\u5a5a\u5f0f',\n'Specialties2': '\u98df\u4e8b',\n'Specialties3': '\u5fa1\u6731\u5370'}"
+"{'\u540d\u524d': '\u7a74\u516b\u5e61\u795e\u793e',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u300a\u5408\u300b\u5929\u7167\u5927\u795e,\u5929\u5150\u5c4b\u6839\u547d,\u6728\u82b1\u958b\u8036\u59eb\u547d,\u83c5\u539f\u9053\u771f,\u5e02\u6775\u5cf6\u59eb\u547d,\u300a\u4e3b\u300b\u5fdc\u795e\u5929\u7687,\u4ef2\u54c0\u5929\u7687,\u795e\u529f\u7687\u540e,\u300a\u914d\u300b\u4ec1\u5fb3\u5929\u7687,\u5fb3\u5ddd\u5bb6\u5eb7,\u5b87\u8fe6\u5fa1\u9b42\u547d,\u5927\u6c5d\u725f\u667a\u795e,\u798f\u795e',\n'\u6b74\u53f2': '\n                    ',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u65b0\u5bbf\u533a\u897f\u65e9\u7a32\u75302-1-11',\n'Specialties4': '\u796d\u308a',\n'Specialties5': '\u6b66\u5c06\u30fb\u30b5\u30e0\u30e9\u30a4',\n'\u8aad\u307f\u65b9': '\u3042\u306a\u306f\u3061\u307e\u3093\u3058\u3093\u3058\u3083',\n'Specialties0': '\u91d1\u904b',\n'Specialties1': '\u5546\u58f2\u7e41\u76db',\n'Specialties2': '\u5384\u9664\u3051\u30fb\u7e01\u5207\u308a',\n'Specialties3': '\u304a\u5b88\u308a'}"
+"{'\u540d\u524d': '\u611b\u5b95\u795e\u793e',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u300a\u4e3b\u300b\u706b\u7523\u970a\u795e,\u300a\u914d\u300b\u7f54\u8c61\u5973\u795e,\u5927\u5c71\u548b\u795e,\u65e5\u672c\u6b66\u5c0a',\n'\u6b74\u53f2': '\n                    ',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u6e2f\u533a\u611b\u5b951-5-3',\n'\u8aad\u307f\u65b9': '\u3042\u305f\u3054\u3058\u3093\u3058\u3083',\n'Specialties0': '\u5fa1\u6731\u5370',\n'Specialties1': '\u7e01\u7d50\u3073\u2022\u604b\u611b\u6210\u5c31',\n'Specialties2': '\u52dd\u8ca0\u904b',\n'Specialties3': '\u304a\u5b88\u308a',\n'\u901a\u79f0': '\u3042\u305f\u3054\u3055\u307e'}"
+"{'Specialties2': '\u7948\u7977',\n'\u540d\u524d': '\u795e\u7530\u795e\u793e\uff08\u795e\u7530\u660e\u795e\uff09',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u300a\u4e3b\u300b\u5927\u5df1\u8cb4\u547d,\u5c11\u5f66\u540d\u547d,\u5e73\u5c06\u9580',\n'Specialties3': '\u304a\u307f\u304f\u3058',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u5343\u4ee3\u7530\u533a\u5916\u795e\u75302-16-2',\n'Specialties4': '\u304a\u7953\u3044',\n'Specialties5': '\u304a\u5bae\u53c2\u308a',\n'Specialties6': '\u7d75\u99ac',\n'Specialties7': '\u4e03\u4e94\u4e09',\n'Specialties0': '\u5546\u58f2\u7e41\u76db',\n'Specialties1': '\u5384\u9664\u3051\u30fb\u7e01\u5207\u308a',\n'Specialties10': '\u5384\u6255\u3044',\n'Specialties11': '\u4ea4\u901a\u5b89\u5168',\n'Specialties12': '\u7e01\u7d50\u3073\u2022\u604b\u611b\u6210\u5c31',\n'Specialties8': '\u5fa1\u6731\u5370',\n'Specialties9': '\u796d\u308a',\n'\u901a\u79f0': '\u660e\u795e\u3055\u307e'}"
+"{}"
+"{'\u540d\u524d': '\u6d45\u8349\u5bfa',\n'\u5b97\u6d3e': '\u8056\u89b3\u97f3\u5b97',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u53f0\u6771\u533a\u6d45\u8349\uff12-\uff13-\uff11'}"
+"{'\u540d\u524d': '\u4e80\u6238\u5929\u795e\u793e',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u300a\u4e3b\u300b\u83c5\u539f\u9053\u771f,\u300a\u914d\u300b\u5929\u83e9\u65e5\u547d',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u6c5f\u6771\u533a\u4e80\u62383-6-1',\n'Specialties0': '\u5b66\u554f\u306e\u795e\u69d8\u2022\u5408\u683c\u7948\u9858',\n'Specialties1': '\u5fa1\u6731\u5370',\n'\u901a\u79f0': '\u4e80\u6238\u5929\u6e80\u5bae'}"
+"{'\u540d\u524d': '\u6839\u6d25\u795e\u793e',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u300a\u4e3b\u300b\u9808\u4f50\u4e4b\u7537\u547d,\u5927\u5c71\u548b\u547d,\u8a89\u7530\u5225\u547d,\u300a\u914d\u300b\u5927\u56fd\u4e3b\u547d,\u83c5\u539f\u9053\u771f',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u6587\u4eac\u533a\u6839\u6d251-28-9',\n'Specialties4': '\u6b66\u5c06\u30fb\u30b5\u30e0\u30e9\u30a4',\n'Specialties5': '\u796d\u308a',\n'Specialties0': '\u91cd\u8981\u6587\u5316\u8ca1',\n'Specialties1': '\u82b1\u306e\u540d\u6240',\n'Specialties2': '\u304a\u5b88\u308a',\n'Specialties3': '\u7d50\u5a5a\u5f0f',\n'\u901a\u79f0': '\u6839\u6d25\u6a29\u73fe'}"
+"{'Web\u30da\u30fc\u30b8': 'None',\n'\u540d\u524d': '\u65e5\u679d\u795e\u793e',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u300a\u4e3b\u300b\u5927\u5c71\u548b\u795e,\u300a\u914d\u300b\u56fd\u5e38\u7acb\u795e,\u4f0a\u5f09\u5189\u795e,\u8db3\u4ef2\u5f66\u5c0a',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u5343\u4ee3\u7530\u533a\u6c38\u7530\u753a2-10-5',\n'Specialties4': '\u4e03\u4e94\u4e09',\n'Specialties5': '\u304a\u5bae\u53c2\u308a',\n'Specialties6': '\u7948\u7977',\n'Specialties7': '\u796d\u308a',\n'Specialties0': '\u7e01\u7d50\u3073\u2022\u604b\u611b\u6210\u5c31',\n'Specialties1': '\u5546\u58f2\u7e41\u76db',\n'Specialties2': '\u5b89\u7523\u7948\u9858\u30fb\u5b50\u5b9d',\n'Specialties3': '\u7d50\u5a5a\u5f0f',\n'Specialties8': '\u5bb6\u5185\u5b89\u5168',\n'Specialties9': '\u6b66\u5c06\u30fb\u30b5\u30e0\u30e9\u30a4',\n'\u901a\u79f0': '\u5c71\u738b\u65e5\u679d\u795e\u793e\u30fb\u5c71\u738b\u3055\u3093'}"
+"{'Web\u30da\u30fc\u30b8': 'None',\n'\u540d\u524d': '\u897f\u65b0\u4e95\u5927\u5e2b\u7dcf\u6301\u5bfa',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u5341\u4e00\u9762\u89b3\u4e16\u97f3  \u5f18\u6cd5\u5927\u5e2b',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u8db3\u7acb\u533a\u897f\u65b0\u4e95\uff11-\uff11\uff15-\uff11',\n'Specialties4': '\u56fd\u5b9d',\n'Specialties5': '\u91cd\u8981\u6587\u5316\u8ca1',\n'Specialties6': '\u82b1\u306e\u540d\u6240',\n'Specialties7': '\u5199\u7d4c\u30fb\u5199\u4ecf',\n'Specialties0': '\u5384\u9664\u3051\u30fb\u7e01\u5207\u308a',\n'Specialties1': '\u7948\u7977',\n'Specialties2': '\u304a\u7953\u3044',\n'Specialties3': '\u4e03\u4e94\u4e09',\n'\u5b97\u6d3e': '\u771f\u8a00\u5b97\u8c4a\u5c71\u6d3e'}"
+"{'Web\u30da\u30fc\u30b8': 'None',\n'\u540d\u524d': '\u82b1\u5712\u795e\u793e',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u300a\u4e3b\u300b\u5009\u7a32\u9b42\u795e,\u65e5\u672c\u6b66\u5c0a,\u5009\u7a32\u9b42\u795e',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u65b0\u5bbf\u533a\u65b0\u5bbf5-17-3',\n'Specialties0': '\u5546\u58f2\u7e41\u76db',\n'Specialties1': '\u796d\u308a',\n'Specialties2': '\u52dd\u8ca0\u904b'}"
+"{'\u540d\u524d': '\u6771\u4eac\u5927\u795e\u5bae',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u300a\u4e3b\u300b\u5929\u7167\u7687\u5927\u795e,\u8c4a\u53d7\u5927\u795e,\u300a\u914d\u300b\u5929\u4e4b\u5fa1\u4e2d\u4e3b\u795e,\u9ad8\u5fa1\u7523\u5de3\u65e5\u795e,\u502d\u6bd4\u58f2\u547d',\n'Specialties0': '\u7e01\u7d50\u3073\u2022\u604b\u611b\u6210\u5c31',\n'Specialties1': '\u5fa1\u6731\u5370',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u5343\u4ee3\u7530\u533a\u5bcc\u58eb\u898b2-4-1'}"
+"{'\u540d\u524d': '\u6d45\u8349\u795e\u793e',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u300a\u4e3b\u300b\u571f\u5e2b\u771f\u4ef2\u77e5\u547d,\u300a\u914d\u300b\u6867\u524d\u6d5c\u6210,\u6867\u524d\u6b66\u6210,\u5fb3\u5ddd\u5bb6\u5eb7',\n'\u6b74\u53f2': '\n                    ',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u53f0\u6771\u533a\u6d45\u83492-3-1',\n'\u8aad\u307f\u65b9': '\u3042\u3055\u304f\u3055\u3058\u3093\u3058\u3083',\n'Specialties0': '\u7e01\u7d50\u3073\u2022\u604b\u611b\u6210\u5c31',\n'Specialties1': '\u5bb6\u5185\u5b89\u5168',\n'Specialties2': '\u5fa1\u6731\u5370',\n'Specialties3': '\u796d\u308a',\n'\u901a\u79f0': '\u4e09\u793e\u69d8'}"
+"{}"
+"{}"
+"{}"
+"{}"
+"{'\u540d\u524d': '\u5bcc\u5ca1\u516b\u5e61\u5bae',\n'\u672c\u5c0a\u30fb\u5fa1\u796d\u795e': '\u300a\u5408\u300b\u7ac3\u795e,\u65e5\u672c\u6b66\u547d,\u300a\u4e3b\u300b\u8a89\u7530\u5225\u5929\u7687,\u300a\u914d\u300b\u606f\u9577\u8db3\u59eb\u547d,\u5927\u96c0\u547d,\u6b66\u5185\u5bbf\u79b0\u547d,\u5929\u5150\u5c4b\u6839\u547d,\u5929\u7167\u7687\u5927\u795e,\u5e38\u78d0\u793e\u795e',\n'\u4f4f\u6240': '\u6771\u4eac\u90fd\u6c5f\u6771\u533a\u5bcc\u5ca11-20-3',\n'Specialties4': '\u7d50\u5a5a\u5f0f',\n'Specialties5': '\u4e03\u4e94\u4e09',\n'Specialties6': '\u796d\u308a',\n'Specialties7': '\u672d\u6240\u30fb\u4e03\u798f\u795e\u5de1\u308a',\n'Specialties0': '\u7e01\u7d50\u3073\u2022\u604b\u611b\u6210\u5c31',\n'Specialties1': '\u91d1\u904b',\n'Specialties2': '\u52dd\u8ca0\u904b',\n'Specialties3': '\u5546\u58f2\u7e41\u76db',\n'\u901a\u79f0': '\u6df1\u5ddd\u516b\u5e61\u5bae'}"
+"{}"

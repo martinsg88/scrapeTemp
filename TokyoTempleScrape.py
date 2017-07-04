@@ -26,9 +26,9 @@ def __get_list_of_pages_tokyo():
     f1=open('./infoFile', 'w+')
     for ele in listOfTemples:
         beforeToPrint = __click_on_temple_pages(ele.attrib['href'])
-        readyToPrint = repr_dict(beforeToPrint)
-        f1.write('\n') 
+        readyToPrint = json.dumps(repr_dict(beforeToPrint))
         f1.write(readyToPrint.encode('utf8'))
+        f1.write('\n') 
     f1.close()
 
 
