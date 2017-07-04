@@ -23,12 +23,17 @@ def __initialize_data():
 def __get_list_of_pages_tokyo():
     tree = __initialize_data() 
     listOfTemples = tree.xpath('//*[@id="content"]/div/section[*]/h3/a')
-    f1=open('./infoFile', 'w+')
+    arrayOfData = []
     for ele in listOfTemples:
         beforeToPrint = __click_on_temple_pages(ele.attrib['href'])
-        readyToPrint = json.dumps(repr_dict(beforeToPrint))
-        f1.write(readyToPrint.encode('utf8'))
-        f1.write('\n') 
+        arrayOfData.append(repr_dict(beforeToPrint))
+    print_data_to_file(arrayOfData)
+    
+    
+def print_data_to_file(readyToPrint):
+    f1=open('./infoFile', 'w+')
+    f1.write(json.dumps(readyToPrint))
+    f1.write('\n')  
     f1.close()
 
 
