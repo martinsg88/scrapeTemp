@@ -14,13 +14,14 @@ tempShrineApp.controller('ShrineListController', function($scope, $http){
 
   function parseData(jsonData, $scope){
 	var parsedJSON = JSON.parse(jsonData);
- 	for(var key in parsedJSON){
+ 	$scope.arrayOfShrines = [];	
+	for(var key in parsedJSON){
 		try{
-			var test = JSON.parse(parsedJSON[key]);
-			console.log(test);	
+			$scope.arrayOfShrines.push(JSON.parse(parsedJSON[key]));
 		}catch(e){
 			//console.log(e);
 		}
 	}
+	$scope.stamps = $scope.arrayOfShrines[2].Specialties2;
   }
 });

@@ -1,0 +1,22 @@
+ul{
+	width: 70%;	
+	margin: auto;
+	margin-bottom: 30px;
+	list-style-type: hiragana;
+}
+
+#shrineTitle{
+	font-weight:bold;
+	font-size: 24px;
+}
+
+.stamp{ 
+	font-weight:bold;
+	background-color: #D3D3D3;
+}
+
+ul li {
+    padding: 8px;
+    border-bottom: 1px solid #aaa;
+}
+

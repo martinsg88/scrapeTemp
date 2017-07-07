@@ -3,10 +3,16 @@
 	<head>
 		<script src="angular.min.js"></script>
 		<script src="index.js"></script>	
+		<link rel= "stylesheet" type="text/css" href="styles.css">	
 	</head>
 	<body ng-controller="ShrineListController">
-		
-	
-	
+		<div class="shrines" ng-repeat="shrine in arrayOfShrines">		
+			<ul>
+				<span id="shrineTitle">{{shrine.info0}}</span>
+				<li class="item" ng-repeat= "specialties in shrine" ng-class="{ 'stamp' : specialties === stamps}">
+					{{specialties}}</em>
+				</li>
+			<ul>	
+		</div>
 	</body>
 </html>
