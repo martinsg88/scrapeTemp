@@ -7,13 +7,20 @@ tempShrineApp.controller('ShrineListController', function($scope, $http){
     method: 'GET',
     url: 'infoFile'
   }).then(function (success){
-	parseData(success.data, $scope); 
+	parseData(JSON.stringify(success.data), $scope); 
   },function (error){
 	console.log(error);
   });
 
   function parseData(jsonData, $scope){
-	var rawData = jsonData.temple1; 
-	console.log(rawData); 
+	var parsedJSON = JSON.parse(jsonData);
+ 	for(var key in parsedJSON){
+		try{
+			var test = JSON.parse(parsedJSON[key]);
+			console.log(test);	
+		}catch(e){
+			//console.log(e);
+		}
+	}
   }
 });

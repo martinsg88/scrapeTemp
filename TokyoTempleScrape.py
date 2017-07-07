@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
 from lxml import html, etree
 import requests 
 from StringIO import StringIO
@@ -70,16 +74,18 @@ def __get_address_information(tree):
     rawBlockData = tree.xpath('//*[@id="content"]/div/section[5]/table')
     keys = []
     values = []
+    i = 0
     for nodes in rawBlockData:
         for node in nodes:
-            keys.append(node[0].text)
+            keys.append("info"+str(i))
             values.append(node[1].text)
+            i = i + 1
     totalValue = make_dic(keys, values) 
     return totalValue 
 
 
 def repr_dict(d):
-        return '{%s}' % ',\n'.join("'%s': '%s'" % pair for pair in d.iteritems())
+        return '{%s}' % ',\n'.join('"%s": "%s"' % pair for pair in d.iteritems())
 
 
 if __name__ == "__main__":
